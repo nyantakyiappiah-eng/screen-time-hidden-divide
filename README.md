@@ -12,6 +12,6 @@
 **Source**: [Kaggle: Screentime vs MentalWellness Survey 2025](https://www.kaggle.com/datasets/adharshinikumar/screentime-vs-mentalwellness-survey-2025) by Adharshini Kumar
 
 **Citation**:  
-Kumar, A. (2025). Screentime vs MentalWellness Survey 2025 [Data set]. Kaggle. https://doi.org/10.34740/KAGGLE/DSV/XXXXXXX
+Kumar, A. (2025). Screentime vs MentalWellness Survey 2025 [Data set]. Kaggle.
 
 
