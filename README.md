@@ -1,23 +1,8 @@
-# Screen Time's Hidden Divide: Work vs Leisure Effects on Mental Wellness
-**Replication Package | N=400 | R²=0.407→0.938 | 13 Model Specifications**
+# Screen Time's Hidden Divide: Preregistered Analysis
+**N=400 | Kaggle dataset | 13 specifications | R²=0.938**
 
-[![DOI](https://zenodo.org/badge/DOIComingSoon.svg)](https://zenodo.org/) <!-- Add after OSF -->
+[![OSF Preregistration](https://img.shields.io/badge/OSF-q6hyz-blue)](https://osf.io/q6hyz/)
+[![DOI](https://img.shields.io/badge/DOI-10.17605/OSF.IO/Q6HYZ-green)](https://doi.org/10.17605/OSF.IO/Q6HYZ)
+[![GitHub](https://img.shields.io/badge/GitHub-Code-green?logo=github)](https://github.com/nyantakyiappiah-eng/screen-time-hidden-divide)
 
-## 🎯 Publication Summary
-| **Metric** | **Result** |
-|------------|------------|
-| Sample | N=400 (13 occupations) |
-| Main Effect | Work screen β=-3.89*** vs Leisure β=-2.41*** |
-| Full Model | R²=0.938 (occupation FE) |
-| Quantile Q4 | Work β=-17.98*** (490% ↑) |
-| Remote Protection | β=+2.73* (41% attenuation) |
-| Student Resilience | β=+1.36* (22% reduction) |
-
-## 🚀 Quick Start (30 seconds)
-```r
-# Reproduce ALL Tables 1-6 + Figures 1-2
-install.packages(c("ggplot2", "quantreg", "robustbase", "dplyr"))
-source("code/master_analysis.R")
-
-
-
+**Key Results:**
