@@ -1,17 +1,23 @@
-# Screen Time's Hidden Divide: Work vs Leisure Effects (N=400)
+# Screen Time's Hidden Divide: Work vs Leisure Effects on Mental Wellness
+**Replication Package | N=400 | R²=0.407→0.938 | 13 Model Specifications**
 
-[![R²=0.938](https://img.shields.io/badge/R²-0.938-green)](README.md)
-[![N=400](https://img.shields.io/badge/N-400-blue)](data/ScreenTimeMentalWellness.csv)
-[![License](https://img.shields.io/github/license/nyantakyiappiah-eng/screen-time-hidden-divide)](LICENSE)
+[![DOI](https://zenodo.org/badge/DOIComingSoon.svg)](https://zenodo.org/) <!-- Add after OSF -->
 
-**R²=0.938 | 13 Robustness Tests | Remote Work Protection | Multi-Journal Ready**
+## 🎯 Publication Summary
+| **Metric** | **Result** |
+|------------|------------|
+| Sample | N=400 (13 occupations) |
+| Main Effect | Work screen β=-3.89*** vs Leisure β=-2.41*** |
+| Full Model | R²=0.938 (occupation FE) |
+| Quantile Q4 | Work β=-17.98*** (490% ↑) |
+| Remote Protection | β=+2.73* (41% attenuation) |
+| Student Resilience | β=+1.36* (22% reduction) |
 
-## 🎯 Key Results
-## 📊 Data Source
-**Primary Data**: ScreenTimeMentalWellness.csv (N=400)  
-**Source**: [Kaggle: Screentime vs MentalWellness Survey 2025](https://www.kaggle.com/datasets/adharshinikumar/screentime-vs-mentalwellness-survey-2025) by Adharshini Kumar
+## 🚀 Quick Start (30 seconds)
+```r
+# Reproduce ALL Tables 1-6 + Figures 1-2
+install.packages(c("ggplot2", "quantreg", "robustbase", "dplyr"))
+source("code/master_analysis.R")
 
-**Citation**:  
-Kumar, A. (2025). Screentime vs MentalWellness Survey 2025 [Data set]. Kaggle.
 
 
